@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  display: flex;
+  background-image: url('./images/neeks_george.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* height: 200vh; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  align-items: center;
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* unvisited link */
+a:link {
+  color: inherit;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: rgb(220, 200, 195);
+}
+
+h1 {
+  font-size: 3vw;
+  padding: 0;
+  margin: 3px;
+  display: flex;
+}
+
+h3 {
+  font-size: 1.25vw;
+  /* padding: 0;
+  margin: 3px; */
+  /* display: flex; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+ul li:first-child {
+  margin-right: 300px;
+  font-size: large;
+}
+
+.main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  /* margin-top: 80vh; */
+}
+
+.projectContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 150px;
+  margin-bottom: 90px;
+  border-radius: 50px 200px;
+  background-color: rgb(185, 148, 119, 0.8);
   color: white;
+  height: 75vh;
+  width: 75vw;
 }
 
-.App-link {
-  color: #61dafb;
+.projThumb {
+  height: 45vh;
+  width: 35vw;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projRow {
+  display: flex;
+}
+
+.projDesc {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  border-radius: 50px 200px;
+  background-color: rgb(185, 148, 119, 0.8);
+  color: white;
+  height: 75vh;
+  width: 75vw;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  border-radius: 50px 200px;
+  background-color: rgb(185, 148, 119, 0.8);
+  color: white;
+  height: 75vh;
+  width: 75vw;
+}
+.backgroundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 150px;
+  margin-bottom: 90px;
+  border-radius: 50px 200px;
+  background-color: rgb(185, 148, 119, 0.8);
+  color: white;
+  height: 75vh;
+  width: 75vw;
+  text-align: center;
+}
+
+.bio {
+  margin: 20px;
+}
+
+.homeRow {
+  margin: 20px;
+  text-indent: 10%;
+}
+
+.credit {
+  align-self: baseline;
+  margin-left: 20px;
+  position: fixed;
+  z-index: -1;
+}
+
+.song {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 150px;
+  margin-bottom: 90px;
+  border-radius: 50px 200px;
+  background-color: rgb(185, 148, 119, 0.8);
+  color: white;
+  height: 110vh;
+  width: 75vw;
+}
+
+.resumeIMG {
+  display: flex;
+  width: 55vw;
+  height: 95vh;
+}
+
+.backgroundIMG {
+  width: 25vw;
+  height: 40vh;
 }
