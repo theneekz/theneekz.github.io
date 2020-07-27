@@ -9,9 +9,6 @@ import Home from './Home';
 import Background from './Background';
 
 function App() {
-  console.log(
-    'Thanks for visiting my page! For a special surprise go to /song'
-  );
   return (
     <div className="App">
       <Navbar />
