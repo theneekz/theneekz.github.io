@@ -11,22 +11,22 @@ import Background from './Background';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="main">
-        <Router>
+      <Router>
+        <Navbar />
+        <div className="main">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/projects" component={Projects} />
+            <Route path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/background" component={Background} />
+            <Route path="/" component={Home} />
           </Switch>
-        </Router>
-      </div>
-      <div className="credit">
-        This background image was created by the wonderful artist{' '}
-        <a href="https://www.facebook.com/spit.city.media/">spit.city</a>
-      </div>
+        </div>
+        <div className="credit">
+          This background image was created by the wonderful artist{' '}
+          <a href="https://www.facebook.com/spit.city.media/">spit.city</a>
+        </div>
+      </Router>
     </div>
   );
 }
