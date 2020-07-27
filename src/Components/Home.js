@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -35,9 +36,9 @@ const Home = () => {
             Socket.io and Raspberry Pi OS.
           </h3>
         </div>
-        <a href="/projects">
+        <Link to="/projects">
           <h1>See my projects!</h1>
-        </a>
+        </Link>
       </div>
     </section>
   );
