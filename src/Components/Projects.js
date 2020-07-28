@@ -24,7 +24,16 @@ const Projects = () => {
                 Developed with Node, React, Redux, Tone.js, Express, Firebase
                 and Travis CI.
               </p>
-              <p>Contributors: Daniel Aaron Sprague, Thaddeus Metz</p>
+              <p>
+                Contributors:{' '}
+                <a href="https://www.linkedin.com/in/5pr46u3/">
+                  Daniel Aaron Sprague
+                </a>
+                ,{' '}
+                <a href="https://www.linkedin.com/in/thaddeus-metz/">
+                  Thaddeus Metz
+                </a>
+              </p>
               <p>
                 Logo:{' '}
                 <a href="https://www.facebook.com/spit.city.media/">
@@ -104,7 +113,13 @@ const Projects = () => {
                 Developed with Node, Express, React, Postgres, Axios,
                 Express-sessions, Passport, Redux, and Sequelize.
               </p>
-              <p>Contributors: Khalilah Manson, Sara Brea</p>
+              <p>
+                Contributors:{' '}
+                <a href="https://www.linkedin.com/in/khalilah-manson/">
+                  Khalilah Manson
+                </a>
+                , <a href="https://www.linkedin.com/in/sarabrea/">Sara Brea</a>
+              </p>
             </h3>
             <div>
               Github:{' '}
