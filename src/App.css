@@ -12,6 +12,11 @@ body {
   background-position: center;
   /* height: 200vh; */
 }
+@media (max-width: 700px) {
+  body {
+    background-size: 100vmin, auto;
+  }
+}
 
 nav {
   display: flex;
@@ -21,6 +26,7 @@ nav {
   color: white;
   align-items: center;
   position: fixed;
+  font-size: 1.5vmin;
 }
 
 /* unvisited link */
@@ -72,9 +78,22 @@ ul {
   justify-content: space-evenly;
 }
 
+@media (max-width: 700px) {
+  ul {
+    font-size: 2vmin;
+  }
+}
+
 ul li:first-child {
   margin-right: 33vmin;
   font-size: large;
+}
+
+@media (max-width: 700px) {
+  ul li:first-child {
+    margin-right: 20vmin;
+    font-size: 2.6vmin;
+  }
 }
 
 .main {
@@ -93,20 +112,30 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15vh;
+  margin-top: 15vmin;
   margin-bottom: 10vh;
   border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
-  height: 75vh;
-  width: 75vw;
-  font-size: calc(5px + 1vmin);
+  height: 80vmin;
+  width: 90vmin;
+  font-size: calc(3px + 1vmin);
+}
+
+@media (max-width: 700px) {
+  .projectContainer {
+    margin-top: 30vmin;
+    height: 90vmin;
+    width: 90vmin;
+    font-size: calc(2.5px + 1vmin);
+  }
 }
 
 .projThumb {
-  height: 45vh;
-  width: 35vw;
-  margin-right: 3vw;
+  height: 25vmin;
+  width: 30vmin;
+  margin-right: 3vmin;
+  margin-left: 3vmin;
 }
 
 .projRow {
@@ -116,7 +145,7 @@ ul li:first-child {
 .projDesc {
   display: flex;
   flex-direction: column;
-  width: 33vw;
+  width: 45%;
 }
 
 .contactContainer {
@@ -132,6 +161,16 @@ ul li:first-child {
   height: 75vh;
   width: 75vw;
 }
+
+@media (max-width: 700px) {
+  .contactContainer {
+    margin-top: 30vmin;
+    height: 90vmin;
+    width: 90vmin;
+    font-size: calc(6px + 1vmin);
+  }
+}
+
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -159,6 +198,16 @@ ul li:first-child {
   height: 75vh;
   width: 75vw;
   text-align: center;
+  font-size: calc(3px + 1vmin);
+}
+
+@media (max-width: 700px) {
+  .backgroundContainer {
+    margin-top: 30vmin;
+    height: 90vmin;
+    width: 90vmin;
+    font-size: calc(2.5px + 1vmin);
+  }
 }
 
 .bio {
@@ -175,6 +224,13 @@ ul li:first-child {
   margin-left: 20px;
   position: fixed;
   z-index: -1;
+}
+
+@media (max-width: 700px) {
+  .credit {
+    text-align: center;
+    background-color: white;
+  }
 }
 
 .song {
@@ -196,13 +252,30 @@ ul li:first-child {
   width: 75vw;
 }
 
+@media (max-width: 700px) {
+  .resumeContainer {
+    margin-top: 30vmin;
+    height: auto;
+    width: 100vmin;
+    font-size: calc(2.5px + 1vmin);
+  }
+}
+
 .resumeIMG {
   display: flex;
-  width: 55vw;
-  height: 95vh;
+  width: 65vmin;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .resumeIMG {
+    display: flex;
+    width: 95vmin;
+    height: auto;
+  }
 }
 
 .backgroundIMG {
   width: 25vw;
-  height: 40vh;
+  height: auto;
 }
