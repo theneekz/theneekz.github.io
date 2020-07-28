@@ -185,6 +185,13 @@ ul li:first-child {
   width: 75vw;
   font-size: 1.5vmin;
 }
+@media (max-width: 700px) {
+  .homeContainer {
+    height: 100vmin;
+    width: 90vmin;
+    font-size: calc(4px + 1vmin);
+  }
+}
 .backgroundContainer {
   display: flex;
   flex-direction: column;
@@ -255,7 +262,7 @@ ul li:first-child {
 @media (max-width: 700px) {
   .resumeContainer {
     margin-top: 30vmin;
-    height: auto;
+    height: 135vmin;
     width: 100vmin;
     font-size: calc(2.5px + 1vmin);
   }
@@ -270,7 +277,7 @@ ul li:first-child {
 @media (max-width: 700px) {
   .resumeIMG {
     display: flex;
-    width: 95vmin;
+    width: 90vmin;
     height: auto;
   }
 }
