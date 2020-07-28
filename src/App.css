@@ -15,7 +15,7 @@ body {
 
 nav {
   display: flex;
-  height: 100px;
+  height: 10vh;
   width: 100vw;
   background-color: black;
   color: white;
@@ -48,14 +48,17 @@ a:active {
 }
 
 h1 {
-  font-size: 3vw;
+  /* font-size: 3vw; */
+  font-size: 250%;
   padding: 0;
-  margin: 3px;
+  margin: 1vmin;
   display: flex;
 }
 
 h3 {
-  font-size: 1.25vw;
+  font-size: 150%;
+  /* font-size: calc(1px + 2vmin); */
+  /* font-size: 1.25vw; */
   /* padding: 0;
   margin: 3px; */
   /* display: flex; */
@@ -70,7 +73,7 @@ ul {
 }
 
 ul li:first-child {
-  margin-right: 300px;
+  margin-right: 33vmin;
   font-size: large;
 }
 
@@ -90,19 +93,20 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
-  margin-bottom: 90px;
-  border-radius: 50px 200px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
   height: 75vh;
   width: 75vw;
+  font-size: calc(5px + 1vmin);
 }
 
 .projThumb {
   height: 45vh;
   width: 35vw;
-  margin-right: 20px;
+  margin-right: 3vw;
 }
 
 .projRow {
@@ -120,9 +124,9 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 150px;
-  margin-bottom: 90px;
-  border-radius: 50px 200px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
   height: 75vh;
@@ -133,22 +137,23 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 150px;
-  margin-bottom: 10px;
-  border-radius: 50px 200px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
   height: 75vh;
   width: 75vw;
+  font-size: 1.5vmin;
 }
 .backgroundContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 150px;
-  margin-bottom: 90px;
-  border-radius: 50px 200px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
   height: 75vh;
@@ -182,9 +187,9 @@ ul li:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 150px;
-  margin-bottom: 90px;
-  border-radius: 50px 200px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  border-radius: 3vmin 15vmin;
   background-color: rgb(185, 148, 119, 0.8);
   color: white;
   height: 110vh;

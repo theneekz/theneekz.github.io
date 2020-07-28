@@ -64,9 +64,7 @@ const Projects = () => {
               <p>
                 I'm currently working on integrating the Google Calendar API so
                 that booking will create an event on a staff calendar and the
-                admin can view all of her appointments in one place. This would
-                also allow confirmation emails to be sent first, to ensure that
-                the user used a valid method of communication.
+                admin can view all of her appointments in one place.
               </p>
             </h3>
             <div>
@@ -96,17 +94,12 @@ const Projects = () => {
           <div className="projDesc">
             <h3>
               This e-commerce app allows users to register, login, browse, and
-              purchase products. As guests, users can view/sort products by
-              category, add various quantities of an item to their cart, and
-              proceed to checkout. Upon checkout they will see a confirmation
-              thank you page and their cart will return to its initial empty
-              state. In addition to guest privileges, members have a profile to
-              change their personal info, saved addresses, saved billing info,
-              and view their order history. Upon checkout they can auto fill
-              forms with the aforementioned addresses and billing info. In
-              addition to member privileges, admin have access to the can view
-              all members, view all orders, view and edit all products, and add
-              products.
+              purchase products. Guests can view/sort products by category, add
+              various quantities of an item to their cart, and proceed to
+              checkout. Members have a profile to change their personal info,
+              autofill forms with saved addresses and saved billing info, and
+              view their order history. Admin have access to view all members,
+              view all orders, view and edit all products, and add products.
               <p>
                 Developed with Node, Express, React, Postgres, Axios,
                 Express-sessions, Passport, Redux, and Sequelize.
