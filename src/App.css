@@ -280,18 +280,3 @@ ul li:first-child {
   width: 25vw;
   height: auto;
 }
-
-/* fade in for all sections */
-#test {
-  opacity: 0;
-
-  /* -webkit-transition: opacity 2s ease-in;
-  -moz-transition: opacity 2s ease-in;
-  -ms-transition: opacity 2s ease-in;
-  -o-transition: opacity 2s ease-in;
-  transition: opacity 2s ease-in; */
-}
-/*
-#test div.load {
-  opacity: 1;
-} */
