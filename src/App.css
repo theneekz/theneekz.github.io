@@ -76,6 +76,19 @@ ul li:first-child {
   position: fixed;
   justify-content: space-evenly;
   font-size: 3vmin;
+  animation-name: drop;
+  animation-duration: 1.2s;
+}
+
+@keyframes drop {
+  from {
+    height: 0%;
+    color: black;
+  }
+  to {
+    height: 33%;
+    color: white;
+  }
 }
 
 /* unvisited link */
