@@ -83,7 +83,7 @@ ul li:first-child {
 @keyframes drop {
   from {
     height: 0%;
-    color: black;
+    color: transparent;
   }
   to {
     height: 33%;
